@@ -1,7 +1,7 @@
 import React from "react";
 import { TrendingUp, TrendingDown } from "lucide-react";
 
-const StatsCard = ({ title, value, change, trend, icon: Icon, color }) => {
+const StatsCard = ({ title, value, change, trend, color }) => {
   const isPositive = trend === "up";
 
   return (
